@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="klagenfurttourism" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="HC2-Co-Smq" id="1gz-Kv-JQl"/>
+                <outlet property="view" destination="iN0-l3-epB" id="tY4-nC-m44"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="1" sectionFooterHeight="28" contentViewInsetsToSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HC2-Co-Smq">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="HC2-Co-Smq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ZJy-2b-ANz"/>
+                <constraint firstItem="HC2-Co-Smq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="c32-x9-25w"/>
+                <constraint firstAttribute="bottom" secondItem="HC2-Co-Smq" secondAttribute="bottom" id="ggz-u6-u9Z"/>
+                <constraint firstAttribute="trailing" secondItem="HC2-Co-Smq" secondAttribute="trailing" id="kVi-jV-AlG"/>
+            </constraints>
+            <point key="canvasLocation" x="31.5" y="59.5"/>
+        </view>
+    </objects>
+</document>

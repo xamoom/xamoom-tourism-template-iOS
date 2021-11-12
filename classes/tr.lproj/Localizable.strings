@@ -1,0 +1,144 @@
+/*
+  Localizeable.strings
+  smart apps
+
+  Copyright © 2020 xamoom GmbH. All rights reserved.
+*/
+
+"tabbar.home"="Ev";
+"tabbar.map"="Harita";
+"tabbar.scan"="Tarayıcı";
+"tabbar.info"="Bilgi";
+"tabbar.settings"="Ayarlar";
+
+"horizontalCell.title.nearby"="Yakında";
+
+"contencollectionview.banner.image"="banner-tr";
+
+
+"mapannotation.distance"="Distance";
+"mapannotation.meter"="meter";
+"mapannotation.kilometer"="kilometer";
+
+
+"mapDetailView.navigation"="Rota";
+"mapDetailView.textButtonLabel"="Daha";
+
+"Notification.noContentTitle" = "Yakınlarda bir şeyler keşfet";
+"Notification.noContentText" = "Uygulamayı açın ve çevrenizdeki bir şeyi keşfedin!";
+
+
+"filterViewController.title"="Filter";
+"filterViewController.done"="Done";
+
+"filterViewController.section.sightseeing"="See & Experience";
+"filterViewController.tag.kirche"="Churches";
+"filterViewController.tag.nature"="Nature";
+"filterViewController.tag.monument"="Monuments";
+"filterViewController.tag.museum"="Museum";
+"filterViewController.tag.gallery"="Galleries";
+"filterViewController.tag.theater"="Theaters";
+"filterViewController.tag.architektur"="Architecture";
+"filterViewController.tag.shopping"="Shopping";
+"filterViewController.tag.sightseeing"="Sightseeing";
+"filterViewController.tag.galmus"="Museum & Galleries";
+"filterViewController.tag.attraction"="Excursion Destinations";
+
+
+"settingsViewController.setting.navigation.header"="Tercih edilen gezinme";
+"settingsViewController.setting.notification.header"="Bildirimler";
+
+
+
+"settingsViewController.setting.navigation.walking"="Yürüme";
+"settingsViewController.setting.navigation.driving"="Araba";
+"settingsViewController.setting.navigation.publicTransport"="Toplu taşıma";
+
+"settingsViewController.setting.notification"="Bildirimler";
+"settingsViewController.setting.notification.sound"="Sesli bildirimler";
+"settingsViewController.setting.notification.vibrant"="Titreşimli bildirimler";
+
+"error.default"="Bir hata oluştu. Lütfen daha sonra tekrar deneyiniz.";
+"error.no_internet"="İnternet bağlantısı yok";
+"error.nothing_found"="Hiçbirşey Bulunamadı";
+"error.password"="Yanlış şifre";
+
+"scanViewController.title"="QR Kodunu Tara";
+"scanViewController.permission"="QR tarayıcıyı kullanmak için, lütfen ayarlara kameradan izin verin.";
+"scanViewController.open.settings"="Ayarları aç";
+"scanViewController.nfc.label" = "Telefonun üst kısmıyla NFC etiketine dokunun";
+"scanViewController.nfc.label.failed" = "Bu NFC etiketi geçerli değil.";
+"scanViewController.code.label.failed" = "Yanlış kod";
+
+"password.dialog.title" = "Bu sayfa korunuyor.";
+"password.dialog.continue" = "Devam et";
+"password.dialog.cancel" = "İptal etmek";
+"password.dialog.hint" = "Parolanı Gir";
+
+"contentblock8.alert.error.title" = "Hata";
+"contentblock8.alert.error.message" = "Bu dosya geçerli değil.";
+"contentblock8.alert.hint.title" = "Not";
+"contentblock8.alert.choose.calendar" = "Bir takvim seçin";
+"contentblock8.alert.contact.request.message" = "Kişilerinize \"%@ %@\" eklemek ister misiniz?";
+"contentblock8.alert.contact.success.message" = "Kişilerinize \"%@ %@\" başarıyla eklendi.";
+"contentblock8.alert.add" = "Ekle";
+"contentblock8.alert.cancel" = "İptal etmek";
+"contentblock8.alert.calendar.request.message" = "Voulez-vous ajouter \"%@\" à \"%@\"?";
+"contentblock8.alert.calendar.success.message" = "Başarıyla \"%@\" - \"%@\" eklendi.";
+
+"mapviewcontroller.no.location.title" = "Bu uygulamanın konum izniniz gerekiyor.";
+"mapviewcontroller.no.location.message" = "Konum hizmetleri devre dışı bırakıldı. Lütfen ayarlardan açın.";
+"mapviewcontroller.no.permission.title" = "Konum gerekli";
+"mapviewcontroller.no.permission.message" = "Konum izni reddedildi. Bu uygulamaya vermek için lütfen ayarlara gidin.";
+"mapviewcontroller.alert.settings" = "Ayarlar";
+"mapviewcontroller.alert.cancel" = "İptal etmek";
+
+"event.navigation.title" = "Bu konuma gidin";
+"event.calendar.title" = "Takvime ekle";
+
+"onboard.action.more" = "Daha";
+"onboard.action.allow" = "İzin vermek";
+"onboard.skip" = "Atla";
+
+"voucher.redeem" = "Kuponu kullan";
+"voucher.redeemed" = "Kupon kullanıldı";
+"voucher.redeemed.alert.title" = "Kupon zaten kullanılmış";
+"voucher.redeemed.alert.description" = "Kupon yalnızca bir kez kullanılabilir.";
+"voucher.redemption.successful.notification" = "Kupon %@ başarıyla kullanıldı. Teşekkürler!";
+"voucher.redemption.error.notification" = "Kupon %@ kullanılamaz. Lütfen kurtarıcıyı kontrol edin.";
+
+"quiz.score.title" = "Dein Punktestand";
+"quiz.score.subtitle" = "Durch das Lösen von Rätseln sammelst du Punkte. Du besitzt aktuell";
+"quiz.score.points" = "Punkte";
+"quiz.score.points.subtitle" = "Alle 300 Punkte steigerst du dein Spieler-Level. Dein aktuelles Level ist";
+"quiz.score.level" = "Level";
+"quiz.score.levels.subtitle" = "Mit jedem Level-Aufstieg erhälst du einen Gutschein. Du hast aktuell";
+"quiz.score.vouchers" = "Gutscheine";
+"quiz.score.vouchers.subtitle" = "Die Gutscheine kannst du bei verschiedenen Orten auf Pellworm eintauschen. Hier gibt es eine entsprechende Übersicht:";
+"quiz.score.info.title" = "Zur Quiz-Übersicht:";
+"quiz.score.info.subtitle" = "Was ist beantwortet und was noch offen?";
+
+"quiz.screen.switcher.first" = "Solved quizzes";
+"quiz.screen.switcher.second" = "Open quizzes";
+"quiz.screen.title" = "Offene Rätsel";
+
+"quiz.screen.open.title" = "Open quizzes";
+"quiz.screen.open.description" = "Here you find all quizzes that are unsolved. Choose one and jump right into the adventure!";
+"quiz.screen.solved.title" = "Deine gelösten Rätstel";
+"quiz.screen.solved.description" = "Diese Rätsel hast du bereits erfolgreich absolviert. Schalte auf „Offene Rätsel“ und du siehst, welcher Rätselspaß noch vor dir steht.";
+
+"quiz.wrong.answer.title" = "Wrong Answer";
+"quiz.wrong.answer.subtitle" = "You have one more chance to give a right answer to the question. Come back tomorrow morning.";
+"quiz.right.answer.title" = "Right answer";
+"quiz.right.answer.subtitle" = "Points earned";
+"quiz.answer.button.close" = "Close";
+"quiz.answer.button.goToScore" = "Go to score page";
+
+"quiz.voucher.redemption.successful.alert.title" = "Are you sure?";
+"quiz.voucher.redemption.successful.alert.subtitle" = "You will spent %i of yours %i vouchers";
+"quiz.voucher.redemption.successful.alert.scan" = "Scan QR";
+
+"quiz.voucher.redemption.fail.alert.title" = "Not enough vouchers";
+"quiz.voucher.redemption.fail.alert.subtitle" = "The price is %i, but you have %i vouchers";
+
+"home.quiz.block.title" = "Welcome";

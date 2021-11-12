@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleAllowMixedLocalizations</key>
+	<true/>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Tourism</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.924733471277-9ccf4lgn2ireeqfm6fqr6kbpjfcer5vu</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>MGLMapboxAccessToken</key>
+	<string>MGLMapboxAccessToken</string>
+	<key>NFCReaderUsageDescription</key>
+	<string>We use NFC to scan our Stickers.</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Needed for using iBeacons.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Needed for using iBeacons.</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>We want to save the event to your calendar.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>We use your Camera to scan QR codes.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>We need access to your contact to properly save a vCard.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>We use your Location to inform you about nearby landmarks.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>We use your Location to inform you about nearby landmarks.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We use your Location to inform you about nearby landmarks.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>We use the Photo Library to save the photo.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+		<string>bluetooth-central</string>
+		<string>fetch</string>
+		<string>location</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleDefault</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>

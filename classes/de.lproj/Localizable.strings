@@ -1,0 +1,144 @@
+/*
+  Localizeable.strings
+  smart apps
+
+  Copyright © 2020 xamoom GmbH. All rights reserved.
+*/
+
+"tabbar.home"="Home";
+"tabbar.map"="Karte";
+"tabbar.scan"="Scan";
+"tabbar.info"="Info";
+"tabbar.settings"="Einstellungen";
+
+"horizontalCell.title.nearby"="In der Nähe";
+
+"contencollectionview.banner.image"="banner-de";
+
+
+"mapannotation.distance" = "Entfernung";
+"mapannotation.meter" = "Meter";
+"mapannotation.kilometer" = "Kilometer";
+
+
+"mapDetailView.navigation"="Navigieren";
+"mapDetailView.textButtonLabel"="Mehr erfahren";
+//"mapDetailView.textButtonLabel"="Zum Rätsel";
+
+"Notification.noContentTitle" = "Entdecke etwas in der Nähe";
+"Notification.noContentText" = "Öffne die App und entdecke etwas in der Nähe!";
+
+
+"filterViewController.title"="Filter";
+"filterViewController.done"="Fertig";
+
+"filterViewController.section.sightseeing"="Sehen & Erleben";
+"filterViewController.tag.kirche"="Kirchen";
+"filterViewController.tag.nature"="Natur";
+"filterViewController.tag.monument"="Denkmäler";
+"filterViewController.tag.museum"="Museen";
+"filterViewController.tag.gallery"="Galerien";
+"filterViewController.tag.theater"="Theaters";
+"filterViewController.tag.architektur"="Architektur";
+"filterViewController.tag.shopping"="Shopping";
+"filterViewController.tag.sightseeing"="Sehenswertes";
+"filterViewController.tag.galmus"="Museen & Galerien";
+"filterViewController.tag.attraction"="Ausflugsziele";
+
+
+"settingsViewController.setting.navigation.header"="Bevorzugte Navigation";
+"settingsViewController.setting.notification.header"="Benachrichtigungen";
+"settingsViewController.setting.language.header"="Bevorzugte Sprache";
+
+"settingsViewController.setting.navigation.walking"="Zu Fuß";
+"settingsViewController.setting.navigation.driving"="Auto";
+"settingsViewController.setting.navigation.publicTransport"="Öffentlicher Verkehr";
+
+"settingsViewController.setting.notification"="Benachrichtigungen";
+"settingsViewController.setting.notification.sound"="mit Ton";
+"settingsViewController.setting.notification.vibrant"="mit Vibration";
+
+
+"error.default"="Ein Fehler ist aufgetreten. Bitte versuchen Sie es später wieder.";
+"error.no_internet"="Keine Internetverbindung";
+"error.nothing_found"="Nichts gefunden";
+"error.password"="Falsches Passwort";
+
+"scanViewController.title"="QR-Code scannen";
+"scanViewController.permission"="Zum Scannen von QR-Codes benötigen wir Zugriff auf Ihre Kamera.";
+"scanViewController.open.settings"="Einstellungen öffnen";
+"scanViewController.nfc.label" = "NFC Tag mit dem oberen Ende des iPhones berühren";
+"scanViewController.nfc.label.failed" = "Dieser NFC-Tag ist nicht gültig.";
+"scanViewController.code.label.failed" = "Falscher Code";
+
+"password.dialog.title" = "Diese Seite ist geschützt.";
+"password.dialog.continue" = "Weiter";
+"password.dialog.cancel" = "Abbrechen";
+"password.dialog.hint" = "Password eingeben";
+
+"contentblock8.alert.error.title" = "Fehler";
+"contentblock8.alert.error.message" = "Diese Datei ist nicht gültig.";
+"contentblock8.alert.hint.title" = "Hinweis";
+"contentblock8.alert.choose.calendar" = "Kalender auswählen";
+"contentblock8.alert.contact.request.message" = "Möchten Sie \"%@ %@\" zu Ihren Kontakten hinzufügen?";
+"contentblock8.alert.contact.success.message" = "\"%@ %@\" wurde erfolgreich zu den Kontakten hinzugefügt.";
+"contentblock8.alert.add" = "Hinzufügen";
+"contentblock8.alert.cancel" = "Abbrechen";
+"contentblock8.alert.calendar.request.message" = "Möchten Sie \"%@\" in den Kalender \"%@\" eintragen?";
+"contentblock8.alert.calendar.success.message" = "\"%@\" wurde erfolgreich in den Kalender \"%@\" eingetragen";
+
+"mapviewcontroller.no.location.title" = "Diese App benötigt Ihren Standort.";
+"mapviewcontroller.no.location.message" = "Die Ortungsdienste sind deaktiviert. Bitte aktivieren Sie diese in den Einstellungen.";
+"mapviewcontroller.no.permission.title" = "Standortdaten benötigt";
+"mapviewcontroller.no.permission.message" = "Die Ortung wurde verweigert. Bitte aktivieren Sie die Standorterlaubnis in den Einstellungen.";
+"mapviewcontroller.alert.settings" = "Einstellungen";
+"mapviewcontroller.alert.cancel" = "Abbrechen";
+
+"event.navigation.title" = "Zum Ort navigieren";
+"event.calendar.title" = "In den Kalender eintragen";
+
+"onboard.action.more" = "Weiter";
+"onboard.action.allow" = "Erlauben";
+"onboard.skip" = "Überspringen";
+
+"voucher.redeem" = "Gutschein einlösen";
+"voucher.redeemed" = "Gutschein eingelöst";
+"voucher.redeemed.alert.title" = "Gutschein bereits eingelöst";
+"voucher.redeemed.alert.description" = "Ein Gutschein darf nur einmal eingelöst werden.";
+"voucher.redemption.successful.notification" = "Der Gutschein %@ wurde erfolgreich eingelöst. Dankeschön!";
+"voucher.redemption.error.notification" = "Der Gutschein %@ kann nicht eingelöst werden. Bitte überprüfen Sie den Einlöse-Code.";
+
+"quiz.score.title" = "Dein Punktestand";
+"quiz.score.subtitle" = "Durch das Lösen von Rätseln sammelst du Punkte. Du besitzt aktuell";
+"quiz.score.points" = "Punkte";
+"quiz.score.points.subtitle" = "Alle 300 Punkte steigerst du dein Spieler-Level. Dein aktuelles Level ist";
+"quiz.score.level" = "Level";
+"quiz.score.levels.subtitle" = "Mit jedem Level-Aufstieg erhälst du einen Gutschein. Du hast aktuell";
+"quiz.score.vouchers" = "Gutscheine";
+"quiz.score.vouchers.subtitle" = "Die Gutscheine kannst du bei verschiedenen Orten auf Pellworm eintauschen. Hier gibt es eine entsprechende Übersicht:";
+"quiz.score.info.title" = "Zur Quiz-Übersicht:";
+"quiz.score.info.subtitle" = "Was ist beantwortet und was noch offen?";
+
+"quiz.screen.switcher.first" = "Gelöste Rätsel";
+"quiz.screen.switcher.second" = "Offene Rätsel";
+
+"quiz.screen.open.title" = "Offene Rätsel";
+"quiz.screen.open.description" = "Hier findest du alle Rätsel, die noch offen sind. Wähle eines aus und stürze dich ins Abenteuer!";
+"quiz.screen.solved.title" = "Deine gelösten Rätstel";
+"quiz.screen.solved.description" = "Diese Rätsel hast du bereits erfolgreich absolviert. Schalte auf „Offene Rätsel“ und du siehst, welcher Rätselspaß noch vor dir steht.";
+
+"quiz.wrong.answer.title" = "Falsche Antwort";
+"quiz.wrong.answer.subtitle" = "Morgen darfst du erneut versuchen, diese Frage zu beantworten";
+"quiz.right.answer.title" = "Richtige Antwort";
+"quiz.right.answer.subtitle" = "Punkte verdient";
+"quiz.answer.button.close" = "Schließen";
+"quiz.answer.button.goToScore" = "Zur Game Score Seite";
+
+"quiz.voucher.redemption.successful.alert.title" = "Bist du dir sicher?";
+"quiz.voucher.redemption.successful.alert.subtitle" = "Du musst dafür %i deiner %i Gutscheine ausgeben.";
+"quiz.voucher.redemption.successful.alert.scan" = "QR scannen";
+
+"quiz.voucher.redemption.fail.alert.title" = "Du hast dafür nicht ausreichend viele Gutscheine.";
+"quiz.voucher.redemption.fail.alert.subtitle" = "Du benötigst dafür %i Gutscheine, hast aber nur %i Stück";
+
+"home.quiz.block.title" = "Willkommen";

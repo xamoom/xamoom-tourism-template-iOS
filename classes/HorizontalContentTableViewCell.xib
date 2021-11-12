@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HorizontalContentTableViewCell" customModule="tourismtemplate" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="177"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vPM-D9-amh">
+                    <rect key="frame" x="8" y="8" width="359" height="26"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="RA8-OH-DbE">
+                    <rect key="frame" x="0.0" y="42" width="375" height="135"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="135" id="BuE-a0-1zO"/>
+                    </constraints>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="oLe-v3-az8">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <cells/>
+                </collectionView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vPM-D9-amh" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="c3J-Y2-9yA"/>
+                <constraint firstItem="vPM-D9-amh" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="cUC-Iz-Ofn"/>
+                <constraint firstAttribute="trailing" secondItem="RA8-OH-DbE" secondAttribute="trailing" id="dbT-CO-mCM"/>
+                <constraint firstItem="RA8-OH-DbE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="eNu-C7-m0Y"/>
+                <constraint firstAttribute="bottom" secondItem="RA8-OH-DbE" secondAttribute="bottom" id="kTn-lJ-idJ"/>
+                <constraint firstItem="RA8-OH-DbE" firstAttribute="top" secondItem="vPM-D9-amh" secondAttribute="bottom" constant="8" id="nB6-5p-XR2"/>
+                <constraint firstAttribute="trailing" secondItem="vPM-D9-amh" secondAttribute="trailing" constant="8" id="rv2-yk-f5q"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="collectionView" destination="RA8-OH-DbE" id="3ca-Rk-rOc"/>
+                <outlet property="titleLabel" destination="vPM-D9-amh" id="Qom-Ds-0nk"/>
+            </connections>
+            <point key="canvasLocation" x="24.5" y="-208.5"/>
+        </view>
+    </objects>
+</document>

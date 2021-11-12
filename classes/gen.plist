@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>app-name</key>
+	<string>Tourism xamoom</string>
+	<key>primary-color</key>
+	<string>#7401df</string>
+	<key>primary-color-dark</key>
+	<string>#380B61</string>
+	<key>accent-color</key>
+	<string>#D0A9F5</string>
+	<key>text_color</key>
+	<string>#FFFFFF</string>
+	<key>maps-api-key</key>
+	<string>maps-api-key</string>
+	<key>api-key</key>
+	<string>d270b614-1208-437f-aefc-cc2effe136fb</string>
+	<key>beacon-major</key>
+	<string>000000</string>
+	<key>is_background_image</key>
+	<string>false</string>
+	<key>enable_quiz_feature</key>
+	<string>false</string>
+	<key>custom-webclient</key>
+	<string>https://t.xamoom.com</string>
+	<key>custom-webclient-host</key>
+	<string>t.xamoom.com</string>
+	<key>tracking_id</key>
+	<string>tracking_id</string>
+	<key>urls</key>
+	<array>
+		<string>http</string>
+	</array>
+	<key>non-internal-urls</key>
+	<array/>
+</dict>
+</plist>

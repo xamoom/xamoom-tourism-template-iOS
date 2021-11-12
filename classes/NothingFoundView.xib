@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="qL5-gw-v6g" customClass="NothingFoundView" customModule="Tourism" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lindwurm_sleepy" translatesAutoresizingMaskIntoConstraints="NO" id="J3i-yo-9K9">
+                    <rect key="frame" x="67" y="269" width="241" height="129"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="J3i-yo-9K9" secondAttribute="height" multiplier="15:8" id="ix3-rb-WMo"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nothing found" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jrh-5g-OOf">
+                    <rect key="frame" x="67" y="406" width="241" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Jrh-5g-OOf" firstAttribute="top" secondItem="J3i-yo-9K9" secondAttribute="bottom" constant="8" id="1PV-G5-oYJ"/>
+                <constraint firstItem="J3i-yo-9K9" firstAttribute="leading" secondItem="qL5-gw-v6g" secondAttribute="leading" constant="67" id="X8i-6T-Mev"/>
+                <constraint firstItem="Jrh-5g-OOf" firstAttribute="leading" secondItem="J3i-yo-9K9" secondAttribute="leading" id="jx2-To-Z31"/>
+                <constraint firstItem="J3i-yo-9K9" firstAttribute="centerY" secondItem="qL5-gw-v6g" secondAttribute="centerY" id="mVB-aC-Fx9"/>
+                <constraint firstItem="Jrh-5g-OOf" firstAttribute="trailing" secondItem="J3i-yo-9K9" secondAttribute="trailing" id="sut-jP-jGM"/>
+                <constraint firstItem="J3i-yo-9K9" firstAttribute="centerX" secondItem="qL5-gw-v6g" secondAttribute="centerX" id="t2G-cq-7AW"/>
+            </constraints>
+            <connections>
+                <outlet property="errorLabel" destination="Jrh-5g-OOf" id="ftu-Ew-3sO"/>
+            </connections>
+            <point key="canvasLocation" x="138" y="109"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="lindwurm_sleepy" width="168" height="106"/>
+    </resources>
+</document>
