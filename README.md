@@ -3,7 +3,7 @@
 ## Pods
 1. Install pods via command ```pod install```
 
-## Buid system
+## Build system
 1. Open File -> Workpace settings
 2. Select ```Legacy Build System```
 3. Check ```Do not show a diagnostics issue about buid system deprication```.
@@ -20,8 +20,8 @@
 ## gen.plist
 1. Set ```maps-api-key```
 2. Set ```beacon-major```
-3. Set ```custom-webclient``` (contact Xamoom support)
-4. Set ```custom-webclient-host``` (contact Xamoom support)
+3. Set ```custom-webclient``` (contact xamoom support)
+4. Set ```custom-webclient-host``` (contact xamoom support)
 5. Set ```tracking_id``` in format UA-******** (Google Analytics)
 6. Set ```urls``` if you need to access to specific urls only.
 7. Set ```non-internal-urls```, if you want to block custom urls.
